@@ -12,7 +12,8 @@ while row_index < src.length do
   element_index= 0
   while element_index < src[row_index].length do
     if src[row_index][element_index].class == string.class
-      string = (src[row_index][element_index]) + ""
+      string = (src[row_index]([element_index] + 
+    "")
       puts output_string << string
     end
     element_index += 1

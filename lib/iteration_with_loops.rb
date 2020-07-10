@@ -8,17 +8,17 @@ src = [["The",4,"quick"],
 string = ""
 row_index = 0
 output_string =[]
+string_vars =""
 while row_index < src.length do
   element_index= 0
   while element_index < src[row_index].length do
     if src[row_index][element_index].class == string.class
-      string = src[row_index][element_index]
-      
+      string_vars = src[row_index][element_index]
     end
     element_index += 1
   end
   row_index += 1
-  output_string << string
+  output_string << string_vars
 end
 puts output_string
 end 

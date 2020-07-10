@@ -17,7 +17,6 @@ while row_index < src.length do
     element_index += 1
   end
   row_index += 1
-  output_string << src[row_index][element_index]
 end
 puts output_string
 end 

@@ -19,7 +19,7 @@ while row_index < src.length do
   end
   row_index += 1
 end
-p output_string
+p output_string.to_s
 end 
 
 

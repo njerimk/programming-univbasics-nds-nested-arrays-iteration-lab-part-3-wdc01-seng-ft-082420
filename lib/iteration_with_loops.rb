@@ -14,6 +14,7 @@ while row_index < src.length do
     if src[row_index][element_index].class == string.class
       string = src[row_index][element_index]
       output_string << string
+      element_index += 1
     end
     element_index += 1
   end

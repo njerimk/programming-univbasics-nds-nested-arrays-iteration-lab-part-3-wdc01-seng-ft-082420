@@ -7,7 +7,7 @@ src = [["The" ,4,"quick" ],
   ["studied" ,101,233,"Ruby "]]
 string = ""
 row_index = 0
-output_string =[]
+output_string =""
 while row_index < src.length do
   element_index= 0
   while element_index < src[row_index].length do

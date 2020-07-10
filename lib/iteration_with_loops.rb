@@ -22,6 +22,11 @@ end
 p output_string
 end 
 
+mixed_data_2 = [
+  ["Turning", "and", "turning", "in", "the", "widening", "gyre"],
+  ["The", "falcon", "cannot", "hear", "the", "falconer;"],
+  ["Things", "fall", "apart;", "the", "centre", "cannot", "hold"]
+]
 
 src = [
   ["The", 4, "quick"],
@@ -29,4 +34,4 @@ src = [
   ["studied", 101, 233, "Ruby"]
 ]
 
-join_nested_strings(src)
+join_nested_strings(mixed_data_2)
